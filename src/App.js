@@ -1,7 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import UserList from './components/UserList';
+import UserDetail from './components/UserDetail';
 
 function App() {
   return (
@@ -9,7 +9,7 @@ function App() {
       <h1>List of Users</h1>
       <UserList />
       <hr />
-      
+      <UserDetail />
     </div>
   );
 }

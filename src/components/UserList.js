@@ -17,8 +17,7 @@ class UserList extends Component {
     // };
     render() {
         return (
-            <div>
-                <h2>UserList goes here...</h2>
+            <ul>
                 {
                     // this.createUserList()
                     this.props.userlist.map((user) => {
@@ -29,7 +28,7 @@ class UserList extends Component {
                         )
                     })
                 }
-            </div>
+            </ul>
         )
     }
 }

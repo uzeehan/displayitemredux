@@ -2,6 +2,8 @@ import React from 'react';
 import './App.css';
 import UserList from './components/UserList';
 import UserDetail from './components/UserDetail';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 function App() {
   return (

@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 class UserDetail extends Component {
     render() {
         if (!this.props.user) {
-            return (<h2>Loading...</h2>);
+            return (<p>Loading...</p>);
         }
         return (
             <div>
-                <h2>Hello - user detail</h2>
+                <h2>User Detail</h2>
                 <p>{this.props.user.firstName} {this.props.user.lastName}</p>
             </div>
         )
